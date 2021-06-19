@@ -188,7 +188,7 @@ input::placeholder {
     font-size: 15px;
     letter-spacing: -0.12px;
     font-weight: 600;
-    color: var(--white);
+    color: var(--rapture-blue);
     font-family: 'Livvic', sans-serif
 }
 
