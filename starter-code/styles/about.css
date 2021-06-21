@@ -369,6 +369,9 @@ footer {
 
     .icon-close.show {
         display: block;
+        position: fixed;
+        top: 50px;
+        right: 28px;
     }
 
     .logo img {
@@ -377,7 +380,7 @@ footer {
     }
 
     .nav-link {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         bottom: 0;
@@ -390,7 +393,7 @@ footer {
         background-repeat: no-repeat;
         background-position: bottom right -100px;
         transform: translate(120%);
-        transition: 0.5s ease;
+        transition: transform 0.5s ease;
     }
 
     .nav-link li a {
